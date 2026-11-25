@@ -103,7 +103,7 @@ static const uint8_t PROGMEM kt_keys[KT_LAYERS][KT_KEY_LEDS][4] = {
 };
 
 // {mode, red1, green1, blue1, red2, green2, blue2, speed} per layer
-static const uint8_t PROGMEM kt_bar[KT_LAYERS][8] = {{{0}}};
+static const uint8_t PROGMEM kt_bar[KT_LAYERS][8] = {{0}};
 
 // Custom light bar colors, clockwise from the bottom-right corner
 static const uint8_t PROGMEM kt_bar_custom[KT_LAYERS][KT_BAR_LEDS][4] = {{{0}}};
